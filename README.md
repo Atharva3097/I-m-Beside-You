@@ -118,3 +118,24 @@ We built an **AI Agent Prototype** that:
 - **Service Code** → FastAPI scaffolding  
 
 ---
+# Tech Stack
+- Languages: Python, Java (input monoliths)
+- Libraries: javalang, networkx, fastapi, uvicorn, pydantic
+- AI Models: Google Gemini 2.0 Flash
+- Deployment: ngrok + FastAPI
+- Embeddings (mock): SHA256 hash-based (replaceable with OpenAI/HuggingFace)
+
+
+# Deliverables
+- ✅ Source Code of the AI Agent Prototype
+- ✅ Architecture Document – components, flow, and reasoning
+- ✅ Data Science Report – fine-tuning setup & evaluation
+- ✅ Interaction Logs – prompts and chat history with AI
+- 🎥 (Optional) Demo video/screenshots
+
+
+# Submission Info
+- Name: Atharva Patil
+- University: IIT Delhi
+- Department: Electrical Engineering (Power and Automation)
+- Expected Graduation: 2027
