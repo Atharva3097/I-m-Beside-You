@@ -21,8 +21,8 @@ We used automated scripts to measure the following objective metrics:
 * **Code Generation Success Rate:** This metric verifies that the generated microservice code is runnable.
   * Implementation: Create a new Python file named evaluate_code_success.py in your project's root directory. This script will attempt to start each generated microservice.
   * How to run:
-   *1.)Make sure you have the requests library installed (pip install requests).
-   *2.)Run the script from your terminal: python3 evaluate_code_success.py.
+   * 1.)Make sure you have the requests library installed (pip install requests).
+   * 2.)Run the script from your terminal: python3 evaluate_code_success.py.
   
 * **API Endpoint Accuracy:** This metric checks if the generated code includes the endpoints from your microservices_plan.json.
   *Implementation: Create a new Python file named evaluate_api_accuracy.py. This script will parse the generated plan and test each endpoint.
