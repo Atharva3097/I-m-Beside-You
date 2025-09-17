@@ -79,3 +79,42 @@ We built an **AI Agent Prototype** that:
 │   ├── evaluation_metrics.csv
 │   └── summary.pdf
 └── README.md                   # Documentation
+
+## ⚙️ Workflow
+
+1. **Static Analysis**
+   ```bash
+   python3 monolith_inspector.py --repo https://github.com/KimJongSung/jPetStore.git --out analysis_output
+   ```
+
+2. **GraphRAG Enrichment**
+   ```bash
+   python3 graphrag_merger.py
+   ```
+
+3. **Microservices Architecture Proposal**
+   - Load `analysis_output/*`
+   - Query **Gemini 2.0 Flash**
+   - Generate `microservices/microservices_plan.json`
+
+4. **Code Generation**
+   ```bash
+   python3 generate_microservices.py
+   ```
+
+5. **Deployment (FastAPI + Uvicorn + ngrok)**
+   ```bash
+   uvicorn app:app --reload --port 8000
+   ```
+
+---
+
+## 📊 Outputs
+- **File Structure** → Markdown + JSON representation  
+- **Knowledge Graph** → Dependencies in GraphML + JSON  
+- **Coupling Metrics** → Afferent/efferent dependencies (CSV)  
+- **GraphRAG Context** → Enriched entities + relationships JSON  
+- **Microservices Plan** → JSON with proposed services  
+- **Service Code** → FastAPI scaffolding  
+
+---
