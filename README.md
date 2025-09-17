@@ -104,6 +104,14 @@ We built an **AI Agent Prototype** that:
 - Deployment: ngrok + FastAPI
 - Embeddings (mock): SHA256 hash-based (replaceable with OpenAI/HuggingFace)
 
+---
+
+## 📑 References
+- Problem Statement: *AI-Driven Modernization of Monolithic Applications to Microservices Architecture* (Orange)  
+- Test Monolith: [jPetStore](https://github.com/KimJongSung/jPetStore)  
+- Static Java Parsing: [javalang](https://github.com/c2nes/javalang)
+
+---
 
 ## 📊 Deliverables
 - ✅ Source Code of the AI Agent Prototype
