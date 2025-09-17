@@ -59,27 +59,6 @@ We built an **AI Agent Prototype** that:
 
 ---
 
-## 📂 Repository Structure  
-```bash
-.
-├── monolith_inspector.py       # Static analysis & knowledge graph builder
-├── graphrag_merger.py          # GraphRAG enrichment
-├── analysis_output/            # Generated analysis results
-│   ├── file_structure.md
-│   ├── file_structure.json
-│   ├── knowledge_graph.json
-│   ├── knowledge_graph.graphml
-│   └── coupling_metrics.csv
-├── microservices/              # AI-generated microservices plan
-│   └── microservices_plan.json
-├── microservices_code/         # Generated FastAPI service code
-│   └── <service_name>/app.py
-├── reports/                    # Data science report & evaluation
-│   ├── fine_tuning_setup.md
-│   ├── evaluation_metrics.csv
-│   └── summary.pdf
-└── README.md                   # Documentation
-```
 ## ⚙️ Workflow
 
 1. **Static Analysis**
