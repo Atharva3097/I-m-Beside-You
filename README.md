@@ -12,7 +12,7 @@ Traditionally, these apps are developed as a **monolithic system**:
 - If the “registration” logic breaks, the entire app may fail  
 - Updates are risky and hard to manage  
 
-To solve this, we developed an **AI-driven microservices conversion assistant**.  
+To solve this, I developed an **AI-driven microservices conversion assistant**.  
 
 ---
 
@@ -30,7 +30,7 @@ The results and methodology are directly transferable to RDV apps.
 
 ## 🤖 AI Agent Solution  
 We built an **AI Agent Prototype** that:  
-- Analyzes monolithic fest apps  
+- Analyzes monolithic apps  
 - Suggests a **microservices design**, e.g.:  
   - Registration Service  
   - Payments Service  
